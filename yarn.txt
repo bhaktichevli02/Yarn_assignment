@@ -1,0 +1,55 @@
+
+installation nodE:
+npm install -g yarn
+yarn -v
+yarn help
+yarn init
+
+=>yarn config set init-license MIT
+delete package.json and run
+yarn init
+
+=>yarn config delete init-license
+//to check config values:
+yarn config get init-license
+yarn config get init-version
+
+=>yarn add moment
+
+=>in package.json below moment:
+"gulp":"*"
+save and run :yarn install
+
+=>yarn outdated
+to upgrade=> yarn upgrade <dependency_name>@version
+
+=>yarn global add nodemon
+#find where the package is installed:
+=>yarn global bin
+=>yarn global remove nodemon
+=>yarn remove gulp
+
+#get list of all the node modules in the file structure
+=>yarn list
+
+
+
+#version in package.json file matches in lockfile:
+=>yarn check
+
+=>yarn add nodemon -D
+
+=> run index.js
+ "scripts": {
+    "dev":"nodemon index.js"
+  },
+yarn run dev
+
+
+
+
+
+
+
+
+
